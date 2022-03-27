@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  
+  
+   text-align: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+  background-color: rgba(49, 30, 8, 0.897);
+  border-radius: 15px 15px 15px 15px;
+  color: bisque;
+  width: 400px;
+  position: absolute;
+  top: 20px;
+  left: 28%; 
+  justify-content: center;
+  align-items: center;
+ 
+}
+body{
+  background-color: rgb(209, 226, 114);
+  
+}
+.less{
+  font-weight:900;
+  height: 30px;
+  width: 30px;
+  background-color: darkgreen;
+  margin: 10px;
+}
+.gretar{
+  font-weight: 900;
+  height: 30px;
+  width: 30px;
+  background-color: darkgreen;
+  margin: 10px;
+}
+.number{
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.coun{
+  height: 200px;
+  width: 200px;
+  background-color: #2a2c31;
+  margin: 10px;
+  text-align: center;
+  /* display: grid; */
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 25px;
+
+}
+.clear{
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 60px;
+  border-radius: 15px 15px ;
 }
